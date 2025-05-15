@@ -57,6 +57,23 @@ A modern, interactive typing test application that uses Google's Gemini AI to ge
    npm run preview
    ```
 
+### Deployment
+
+The project is configured for GitHub Pages deployment from the `docs` directory in the main branch.
+
+1. Make your changes to the codebase
+2. Build the project:
+   ```bash
+   npm run build
+   ```
+3. Commit and push your changes (including the `docs` directory):
+   ```bash
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
+   ```
+4. GitHub will automatically deploy your site from the `docs` directory
+
 ## Usage
 
 1. Select your desired difficulty level and topic
