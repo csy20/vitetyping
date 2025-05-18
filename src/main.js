@@ -90,7 +90,7 @@ let currentPassage = '';
 let isGeneratingParagraph = false;
 
 // Initialize Gemini API with the new API key for gemini-1.5-flash
-const geminiApi = initGeminiAPI('AIzaSyAONiBoc9W-hwqilnWeKY1uvvMWz5EQSiI');
+const geminiApi = initGeminiAPI(import.meta.env.VITE_GEMINI_API_KEY);
 
 // Wait for DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function() {

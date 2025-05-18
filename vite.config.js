@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/vitetyping/',
   build: {
-    outDir: 'docs'
+    outDir: 'dist' // Using 'dist' as the standard output directory for Vercel
   }
 })

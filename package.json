@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "git add . && git commit -m \"Update build files\" && git push origin main"
+    "deploy": "git add . && git commit -m \"Update build files\" && git push origin main",
+    "vercel": "vercel",
+    "vercel:prod": "vercel --prod"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
+    "vercel": "^41.7.8",
     "vite": "^6.3.5"
   },
   "dependencies": {

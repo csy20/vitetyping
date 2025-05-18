@@ -2,6 +2,8 @@
 
 A modern, interactive typing test application that uses Google's Gemini AI to generate custom typing challenges and provide personalized feedback on your typing performance.
 
+🚀 **Live Demo:** [https://vitetyping.vercel.app](https://vitetyping.vercel.app)
+
 ## Features
 
 - **AI-Generated Content**: Utilizes Google's Gemini 1.5 Flash model to create unique typing challenges
@@ -59,20 +61,33 @@ A modern, interactive typing test application that uses Google's Gemini AI to ge
 
 ### Deployment
 
-The project is configured for GitHub Pages deployment from the `docs` directory in the main branch.
+The project is deployed using Vercel. You can access the live version at [https://vitetyping.vercel.app](https://vitetyping.vercel.app).
 
-1. Make your changes to the codebase
-2. Build the project:
+#### Deploying with Vercel
+
+1. Install Vercel CLI (if not already installed):
    ```bash
-   npm run build
+   npm install -g vercel
    ```
-3. Commit and push your changes (including the `docs` directory):
+
+2. Login to Vercel:
    ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push origin main
+   vercel login
    ```
-4. GitHub will automatically deploy your site from the `docs` directory
+
+3. Deploy your application:
+   ```bash
+   vercel
+   ```
+
+4. For production deployment:
+   ```bash
+   vercel --prod
+   ```
+
+5. Set up environment variables in the Vercel dashboard:
+   - Navigate to your project settings
+   - Add `VITE_GEMINI_API_KEY` environment variable with your Google Gemini API key
 
 ## Usage
 
