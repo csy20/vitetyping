@@ -59,20 +59,21 @@ A modern, interactive typing test application that uses Google's Gemini AI to ge
 
 ### Deployment
 
-The project is configured for GitHub Pages deployment from the `docs` directory in the main branch.
+The project is deployed on Vercel and can be accessed at:
+[https://vitetyping.vercel.app/](https://vitetyping.vercel.app/)
+
+#### Deployment Instructions
+
+The project is configured for automatic deployment on Vercel from the main branch.
 
 1. Make your changes to the codebase
-2. Build the project:
-   ```bash
-   npm run build
-   ```
-3. Commit and push your changes (including the `docs` directory):
+2. Commit and push your changes to the main branch:
    ```bash
    git add .
    git commit -m "Your commit message"
    git push origin main
    ```
-4. GitHub will automatically deploy your site from the `docs` directory
+3. Vercel will automatically build and deploy your site
 
 ## Usage
 
